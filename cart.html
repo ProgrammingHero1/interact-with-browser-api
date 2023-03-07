@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping charset</title>
+</head>
+<body>
+    <input id="product-name" type="text" placeholder="Product">
+    <input id="product-quantity" type="text" placeholder="Quantity">
+    <button onclick="addProduct()" >Add Product</button>
+    
+    <ul id="product-container">
+    </ul>
+    <script src="js/cart.js"></script>
+</body>
+</html>
